@@ -23,12 +23,17 @@ npm install -g win-node-env
 ### Package Install on Project
 
 ```sh
-npm install express         // node framework
-npm install serve-favicon   // api router favicon sets
-npm install mongoose        // mongoDB database schema-based solution to model your application data
-npm install dotenv          // environment variables
-npm install multer          // file uploads
-npm install http-errors     // create HTTP error objects
+npm install express           // node.js framework
+npm install serve-favicon     // api router favicon sets
+npm install mongoose          // mongoDB database schema-based solution to model your application data
+npm install dotenv            // environment variables
+npm install multer            // file uploads
+npm install http-errors       // create HTTP error objects
+npm install express-validator // form validation
+npm install bcrypt            // password hashed
+npm install cookie-parser     // parse HTTP request cookie
+npm install jsonwebtoken      // JWT user authentication
+npm install moment            // parsing, validating, manipulating, and formatting dates
 ```
 
 <!-- EXTENSIONS & LINTING SETUP -->
