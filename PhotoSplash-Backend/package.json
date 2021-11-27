@@ -1,0 +1,37 @@
+{
+  "name": "photosplash-backend",
+  "version": "1.0.0",
+  "description": "PhotoSplash App RESTfulAPI develope using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamiurRahmanMukul/MERN-Stack-App-PhotoSplash.git"
+  },
+  "author": "Samiur Rahman Mukul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamiurRahmanMukul/MERN-Stack-App-PhotoSplash/issues"
+  },
+  "homepage": "https://github.com/SamiurRahmanMukul/MERN-Stack-App-PhotoSplash#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.1",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
